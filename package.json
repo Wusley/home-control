@@ -1,0 +1,41 @@
+{
+  "name": "HomeJS-Local",
+  "version": "0.0.1",
+  "description": "Automação",
+  "keywords": [
+    "Node.js",
+    "application"
+  ],
+  "author": {
+    "name": "Wesley Lima",
+    "email": "contato@wesley.pro.br",
+    "url":  "http://wesley.pro.br"
+  },
+  "homepage": "http://www.openshift.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://gitub.com/openshift/origin-server"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "ejs": "*",
+    "socket.io": "0.9.16"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-compass": "~0.5.0",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js",
+  "license": "BSD-2-Clause"
+}
